@@ -1,0 +1,15 @@
+@import url(./reset.css);
+
+:root {
+  --font-family: "PT Serif", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+  --third-family: "Arial", sans-serif;
+
+  --btn-color: #909cc4;
+  --white-color: #fff;
+  --blue-text: #242852;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
