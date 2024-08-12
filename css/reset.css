@@ -70,7 +70,7 @@ nav {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+  /* font: inherit; */
 }
 
 /* HTML5 display-role reset for older browsers */

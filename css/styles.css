@@ -1,4 +1,5 @@
 @import url(./reset.css);
+@import url(./default.css);
 
 :root {
   --font-family: "PT Serif", sans-serif;
@@ -10,6 +11,98 @@
   --blue-text: #242852;
 }
 
-body {
-  font-family: "Arial", sans-serif;
+.wrap {
+  position: relative;
+  background: linear-gradient(rgba(56, 57, 141, 0.82), rgba(56, 57, 141, 0.82)),
+    url(../img/bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background: transparent;
+  padding: 48px 0 24px;
+}
+.container {
+  width: 1170px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  margin-left: auto;
+}
+.nav__list {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  /*font-size: 1.4vw; /* Використання vw для адаптивного розміру шрифту */
+  color: #fff;
+
+  display: flex;
+  gap: 60px;
+}
+.nav__item {
+}
+.nav__link {
+}
+.hero {
+  font-family: "PT Serif", sans-serif;
+  color: #fff;
+  padding: 150px 0 185px;
+  text-align: center;
+  /*padding: 15vh 0 18vh; /* Використання vh для адаптивних відступів */
+}
+
+.hero .container {
+  height: calc(100vh - 85px);
+}
+.hero__title {
+  width: 600px;
+  font-weight: 700;
+  font-size: 37px;
+  /* font-size: 4vw; */
+  text-transform: uppercase;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 53px;
+  /*margin-bottom: 5vh; /* Використання vh для адаптивних відступів */
+}
+.hero__subtitle,
+.hero__text {
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 47px;
+  text-align: center;
+  /*  font-size: 2.1vw; /* Використання vw для адаптивного розміру шрифту */
+  /* margin-bottom: 4vh; /* Використання vh для адаптивних відступів */
+}
+.hero__text {
+  font-size: 16px;
+  margin-bottom: 61px;
+  width: 381px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*font-size: 1.6vw; /* Використання vw для адаптивного розміру шрифту */
+  /*margin-bottom: 6vh; /* Використання vh для адаптивних відступів */
+  /*width: 50%; /* Використання відсотків для адаптивної ширини */
+}
+
+.hero__button {
+  font-size: 1.8vw; /* Використання vw для адаптивного розміру шрифту */
+  padding: 1vw 3vw; /* Використання vw для адаптивних відступів кнопки */
 }
