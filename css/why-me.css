@@ -1,0 +1,38 @@
+.why-me {
+  padding: 92px 0 152px;
+  background-color: var(--light-blue);
+}
+.why-me .wrap {
+  gap: 180px;
+}
+.why-me__title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--white-color);
+
+  background-color: var(--bg-dark-blue);
+  margin-bottom: 105px;
+
+  display: block;
+  width: 505px;
+  padding: 5px;
+}
+.why-me__list {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--dark-text-color);
+  list-style: disc;
+  transform: translateX(16px);
+}
+
+.why-me__picture {
+  width: 325px;
+}

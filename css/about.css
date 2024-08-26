@@ -3,8 +3,6 @@
   padding: 118px 0 40px;
 }
 
-.about__profile {
-}
 .about__content {
   width: 604px;
 }
@@ -37,8 +35,7 @@
   width: 200px;
   height: auto;
 }
-.about__tasks {
-}
+
 .about__title {
   display: block;
 
@@ -57,17 +54,3 @@
   position: relative;
   margin-bottom: 11px;
 }
-
-/* .about__item::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: black;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -15px;
-  transform: translateY(-50%);
-  margin-right: 25px;
-} */

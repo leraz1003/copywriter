@@ -1,0 +1,41 @@
+.social-media {
+  background-color: var(--bg-gray);
+  padding: 78px 0 123px;
+}
+.social-media .container {
+  font-family: var(--font-family);
+  color: var(--dark-text-color);
+}
+
+.social-media__title {
+  font-weight: 700;
+  font-size: 29px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.social-media__list {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 26px;
+  list-style: disc;
+  transform: translateX(21px);
+}
+.social-media__text {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 34px;
+}
+.social-media__text.second {
+  font-weight: 700;
+  margin-bottom: 76px;
+}
+.social-media__button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media__picture {
+  width: 240px;
+}

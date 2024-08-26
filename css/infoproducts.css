@@ -1,0 +1,29 @@
+.infoproducts {
+  background-color: var(--bg-dark-blue);
+  padding: 96px 0 189px;
+}
+
+.infoproducts .wrap {
+  justify-content: flex-start;
+  gap: 85px;
+}
+.infoproducts__picture {
+  width: 330px;
+}
+
+.infoproducts__title {
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--white-color);
+  margin-bottom: 33px;
+}
+.infoproducts__list {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white-color);
+  list-style: disc;
+  margin-bottom: 143px;
+  transform: translateX(15px);
+}

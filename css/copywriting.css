@@ -5,12 +5,8 @@
 .container.wrap {
   gap: 73px;
 }
-.copywriting__image {
-}
 .copywriting__picture {
   width: 300px;
-  height: auto;
-  display: block;
 }
 .copywriting__wrap {
   color: var(--white-color);

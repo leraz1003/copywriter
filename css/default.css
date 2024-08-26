@@ -11,6 +11,9 @@
       rgba(56, 57, 141, 0.82)
     ),
     url(../img/bg-image.jpg);
+  --bg-gray: #d9d9d9;
+  --bg-dark-blue: #38398d;
+  --dark-text-color: #000;
 }
 
 .title {
@@ -38,9 +41,15 @@ button {
   border-radius: 36px;
   background-color: var(--light-blue);
   cursor: pointer;
+  border: none;
 }
 
 .wrap {
   display: flex;
   justify-content: space-between;
+}
+
+.picture {
+  height: auto;
+  display: block;
 }
