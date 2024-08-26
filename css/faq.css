@@ -1,0 +1,25 @@
+.faq {
+  padding: 114px 0 252px;
+  background-color: var(--bg-gray);
+}
+.faq .wrap {
+  gap: 222px;
+  justify-content: flex-start;
+}
+.faq__picture {
+  width: 255px;
+}
+.picture {
+}
+.faq__title {
+  display: block;
+  width: 400px;
+  padding: 5px 55px;
+  text-align: center;
+
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+}

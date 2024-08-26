@@ -260,22 +260,64 @@
         </section>
     
         <section class="portfolio">
-            <div class="container">
-                <h2 class="portfolio__title">Портфоліо</h2>
+            <div class="container wrap">
+                <div>
+                    <h3 class="portfolio__title examples-work">Приклади робіт</h3>
+                    <h4 class="portfolio__title cases">Кейси</h4>
+                    <h2 class="portfolio__title portfolio-text ">Портфоліо</h2>
+                </div>
+                <div>
+                    <picture class="portfolio__picture picture">
+                        <source srcset="./img/portfolio.webp 1x,
+                                    ./img/portfolio@2x.webp 2x,
+                                    ./img/portfolio@3x.webp 3x"  type="image/webp" />
+                        <source srcset="./img/portfolio.jpg 1x,
+                                        ./img/portfolio@2x.jpg 2x,
+                                        ./img/portfolio@3x.jpg 3x"  type="image/jpeg" />
+                        <img loading="lazy" src="./img/portfolio.jpg" alt="portfolio" />
+                    </picture>
+                </div>
+
                 <!-- Тут будуть приклади робіт, кейси -->
             </div>
         </section>
     
         <section class="faq">
-            <div class="container">
-                <h2 class="faq__title">Найпоширеніші питання</h2>
+            <div class="container wrap">
+                <div>
+                    <picture class="faq__picture picture">
+                        <source srcset="./img/question.webp 1x,
+                                    ./img/question@2x.webp 2x,
+                                    ./img/question@3x.webp 3x"  type="image/webp" />
+                        <source srcset="./img/question.jpg 1x,
+                                        ./img/question@2x.jpg 2x,
+                                        ./img/question@3x.jpg 3x"  type="image/jpeg" />
+                        <img loading="lazy" src="./img/question.jpg" alt="question" />
+                    </picture>
+                </div>
+                <div>
+                    <h2 class="faq__title">Найпоширеніші питання</h2>
+                </div>
                 <!-- Тут будуть найпоширеніші питання -->
             </div>
         </section>
     
         <section class="contact">
-           <div class="container">
-                <h2 class="contact__title">Контакти</h2>
+           <div class="container wrap">
+                <div>
+                    <h2 class="contact__title">Контакти</h2>
+                </div>
+                <div>
+                    <picture class="faq__picture picture">
+                        <source srcset="./img/contacts.webp 1x,
+                                    ./img/contacts@2x.webp 2x,
+                                    ./img/contacts@3x.webp 3x"  type="image/webp" />
+                        <source srcset="./img/contacts.jpg 1x,
+                                        ./img/contacts@2x.jpg 2x,
+                                        ./img/contacts@3x.jpg 3x"  type="image/jpeg" />
+                        <img loading="lazy" src="./img/contacts.jpg" alt="contacts" />
+                    </picture>
+                </div>
                 <!-- Тут будуть контактні дані -->
            </div>
         </section>
@@ -283,7 +325,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p class="footer__text">© 2024 Наталія Савченко. Всі права захищені.</p>
+            <p class="footer__text">&copy 2024 Наталія Савченко. Всі права захищені.</p>
         </div>
     </footer>
 </body>

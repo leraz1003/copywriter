@@ -1,0 +1,16 @@
+.contact {
+  padding: 143px 0;
+  background-color: var(--bg-dark-blue);
+}
+.contact__title {
+  display: block;
+  width: 159px;
+  padding: 5px 20px;
+  text-align: center;
+
+  background-color: var(--bg-gray);
+  color: var(--dark-blue);
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+}
