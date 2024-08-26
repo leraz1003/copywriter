@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="wrap">
+   
         <header class="header">
             <div class="container">
                 <nav class="nav">
@@ -25,6 +25,11 @@
         </header>
     
         
+   
+    
+
+
+    <main>
         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">ПОТРІБНІ ЕФЕКТИВНІ ТЕКСТИ ДЛЯ САЙТУ І СОЦМЕРЕЖ?</h1>
@@ -33,10 +38,7 @@
                 <button type="button"  class="button hero__button">Замовити</button>
             </div>
         </section>
-    </div>
 
-
-    <main>
         <section class="about">
             <div class="container">
                 <div class="about__profile">
@@ -49,16 +51,34 @@
                         </div>
     
                         <div class="about__image">
-                            <img src="./img/photo1.jpg" alt="Наталія Савченко">
+                            <picture >
+                                <source srcset="./img/services.webp 1x,
+                                    ./img/services@2x.webp 2x,
+                                    ./img/services@3x.webp 3x"  type="image/webp" />
+                                <source srcset="./img/services.jpg 1x,
+                                            ./img/services@2x.jpg 2x,
+                                            ./img/services@3x.jpg 3x"  type="image/jpeg" />
+                                <img loading="lazy" src="./img/services.jpg" alt="Наталія Савченко" />
+                            </picture>
                         </div>
+
                     </div>
                 </div>
 
-                <div class="about__tasks">
-                    <div class="about__wrap">
+                <div class="about__tasks about__wrap">
+                    
                         <div class="about__image">
-                                <img src="./img/photo2.jpg" alt="Наталія Савченко">
+                             <picture >
+                                <source srcset="./img/aboutMe.webp 1x,
+                                    ./img/aboutMe@2x.webp 2x,
+                                    ./img/aboutMe@3x.webp 3x"  type="image/webp" />
+                                <source srcset="./img/aboutMe.jpg 1x,
+                                            ./img/aboutMe@2x.jpg 2x,
+                                            ./img/aboutMe@3x.jpg 3x"  type="image/jpeg" />
+                                <img loading="lazy" src="./img/aboutMe.jpg" alt="Notebook" />
+                            </picture>
                         </div>
+
                         <div class="about__envelopment">
                             <h2 class="about__title">Які завдання виконую?</h2>
                             <ul class="about__list">
@@ -71,25 +91,36 @@
                                 <li class="about__item">Налаштовую текстові стратегії для блогу.</li>
                             </ul>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
     
-      
-                
-        
-    
         <section class="copywriting">
-            <div class="container">
-                <h2 class="copywriting__title">Послуги</h2>
-                <p class="copywriting__description">Копірайтерський супровід проекту</p>
-                <p class="copywriting__text">
-                    Опрацьовую матеріали про бренд, товари, послуги та нішу. Аналізую ЦА та конкурентів. 
-                    Створюю контент-плани з темами, заголовками та тезами. Пишу від 15 текстів (дописів чи рілз). 
-                    Storytelling до 10 сторіз 5-6 днів на тиждень.
-                </p>
-                <button type="button"  class="button copywriting__button">ЗАМОВИТИ</button>
+            <div class="container wrap">
+                <div class="">
+                            <picture class="copywriting__picture">
+                                <source srcset="./img/services.webp 1x,
+                                    ./img/services@2x.webp 2x,
+                                    ./img/services@3x.webp 3x"  type="image/webp" />
+                                <source srcset="./img/services.jpg 1x,
+                                            ./img/services@2x.jpg 2x,
+                                            ./img/services@3x.jpg 3x"  type="image/jpeg" />
+                                <img loading="lazy" src="./img/services.jpg" alt="services" />
+                            </picture>
+                </div>
+
+                <div class="copywriting__wrap ">
+                    <h2 class="copywriting__title title">Послуги</h2>
+                    <p class="copywriting__description">Копірайтерський супровід проекту</p>
+                    <ul class="copywriting__list">
+                        <li class="copywriting__item">Опрацьовую матеріали про бренд, товари, послуги та нішу. Аналізую ЦА та конкурентів.</li>
+                        <li class="copywriting__item">Створюю контент-плани з темами, заголовками та тезами. Пишу від 15 текстів (дописи чи рилз). Сторітелінг до 10 сториз 5-6 днів на тиждень.</li>
+                        <li class="copywriting__item">Ви максимально швидко наповните блог чи сайт контентом, який працює на вас 24/7, тобто зацікавлює, інформує і приводить клієнтів</li>
+                    </ul>
+                    <button type="button"  class="button copywriting__button">ЗАМОВИТИ</button>
+                </div>
+
             </div>
         </section>
     

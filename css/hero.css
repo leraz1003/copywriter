@@ -1,0 +1,49 @@
+.hero {
+  font-family: "PT Serif", sans-serif;
+  color: var(--white-color);
+  padding: 223px 0;
+  text-align: center;
+
+  background: var(--background-img);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.hero__title {
+  width: 600px;
+  font-weight: 700;
+  font-size: 37px;
+
+  text-transform: uppercase;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 53px;
+}
+.hero__subtitle,
+.hero__text {
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 47px;
+  text-align: center;
+}
+.hero__text {
+  font-size: 16px;
+  margin-bottom: 61px;
+  width: 381px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__button {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white-color);
+}

@@ -1,0 +1,47 @@
+.copywriting {
+  padding: 130px 0;
+  background-color: var(--light-blue);
+}
+.container.wrap {
+  gap: 73px;
+}
+.copywriting__image {
+}
+.copywriting__picture {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+.copywriting__wrap {
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.copywriting__title {
+  font-size: 29px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copywriting__description {
+  font-size: 24px;
+  margin-bottom: 42px;
+}
+.copywriting__list {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 41px;
+}
+.copywriting__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.copywriting__button {
+  width: 232px;
+  background-color: var(--dark-blue);
+  margin-left: auto;
+  margin-right: auto;
+}
